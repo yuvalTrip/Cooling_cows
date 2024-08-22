@@ -53,8 +53,8 @@ def parse_opt(ROOT):
     parser.add_argument('--weights', nargs='+', type=str, default=ROOT / 'yolov5s.pt', help='model path or triton URL')
 
     # for images (not video feed) - parser.add_argument('--source', type=str, default=ROOT / 'data/images', help='file/dir/URL/glob/screen/0(webcam)')
-    parser.add_argument('--source', type=str, default=0, help='file/dir/URL/glob/screen/0(webcam)')
-
+    parser.add_argument('--source', type=str, default="C:\\Users\\yuval\\PycharmProjects\\Cooling_cows\\data\\images", help='file/dir/URL/glob/screen/0(webcam)')
+#Changed fro 0 to this
     parser.add_argument('--data', type=str, default=ROOT / 'data/coco128.yaml', help='(optional) dataset.yaml path')
     parser.add_argument('--imgsz', '--img', '--img-size', nargs='+', type=int, default=[640], help='inference size h,w')
     parser.add_argument('--conf-thres', type=float, default=0.25, help='confidence threshold')  # This is to be changed to change threshold of detection
