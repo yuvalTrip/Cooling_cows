@@ -26,3 +26,5 @@ For now, the program prints the results to the console in the following format:
 ### Future Plans
 The next step is to develop a GUI (Graphical User Interface) that will allow users to change the minimum number of cows and detection threshold without needing to modify the code directly.
 
+### Notes
+main file: yolo5-copy -> detect.py
